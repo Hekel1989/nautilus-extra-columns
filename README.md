@@ -23,8 +23,13 @@ fi
 ```
 
 ## Install to local destination (home directory)
-`git clone https://github.com/Hekel1989/nautilus-extra-columns.git`
-`cd nautlius-nec`
+``` bash
+git clone https://github.com/Hekel1989/nautilus-extra-columns.git
+```
+
+``` bash
+cd nautlius-nec
+```
 
 ``` bash
 make install
@@ -33,10 +38,20 @@ make install
 ## Install to global destination (system)
 
 ``` bash
+git clone https://github.com/Hekel1989/nautilus-extra-columns.git
+```
+
+``` bash
+cd nautlius-nec
+```
+
+``` bash
 make
 sudo make install PREFIX=/usr
 ```
 
 # Uninstalling
 
-`sudo make install PREFIX=/usr`
+``` bash
+sudo make install PREFIX=/usr
+```
