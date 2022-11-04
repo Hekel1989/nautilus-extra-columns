@@ -74,7 +74,7 @@ run this instead
 make install
 ```
 
-### To use Nautilus Extra Columns:
+## To use Nautilus Extra Columns:
 
 - On the GNOME Files top bar, click the **list/grid view** button to toggle the list view on a folder.
 - Click the **View options** button next to the list/grid view button.
