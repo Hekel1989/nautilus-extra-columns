@@ -2,7 +2,7 @@
 
 Expand columns with extra data like: tags, metadata, exif, quality information.
 
-# Instalation
+# Installation
 
 Instalation can be selective, for eg: `make install-mediainfo` => `src/nec-mediainfo.py`
 
@@ -11,7 +11,9 @@ Instalation can be selective, for eg: `make install-mediainfo` => `src/nec-media
 * exif: [pyexiv2](https://launchpad.net/py3exiv2)
 * pdf: [PyPDF2](https://mstamy2.github.com/PyPDF2)
 
-Required dependencies:
+Required Dependencies:
+
+To install all of the above on a Debian or Redhat based system, use the script below
 
 ```
 if [ -f "/etc/debian_version" ]; then
@@ -36,4 +38,4 @@ sudo make install PREFIX=/usr
 
 # Uninstalling
 
-Prepend `install` with `un`...
+`sudo make install PREFIX=/usr`
