@@ -1,6 +1,6 @@
-# Nautilus extension: Nautilus Extra Columns
+# Nautilus Extension: Nautilus Extra Columns
 
-Expand columns with extra data like: tags, metadata, exif, quality information.
+Expand Nautilus' columns with extra options like: tags, metadata, exif, quality information.
 
 # Installation
 
@@ -11,9 +11,7 @@ Instalation can be selective, for eg: `make install-mediainfo` => `src/nec-media
 * exif: [pyexiv2](https://launchpad.net/py3exiv2)
 * pdf: [PyPDF2](https://mstamy2.github.com/PyPDF2)
 
-Required Dependencies:
-
-To install all of the above on a Debian or Redhat based system, use the script below
+To install all of the above on a Debian or Redhat based system, use the command below
 
 ```
 if [ -f "/etc/debian_version" ]; then
@@ -24,12 +22,15 @@ if [ "$(grep -Ei 'fedora|redhat' /etc/*release)" ]; then
 fi
 ```
 
-## To local destination (home directory)
+## Install to local destination (home directory)
+`git clone https://github.com/Hekel1989/nautilus-extra-columns.git`
+`cd nautlius-nec`
+
 ``` bash
 make install
 ```
 
-## To global destination (system)
+## Install to global destination (system)
 
 ``` bash
 make
