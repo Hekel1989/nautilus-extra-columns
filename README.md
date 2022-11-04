@@ -10,7 +10,7 @@ Installation can be narowed down to just the required categories; For example, i
 
  `make install-mediainfo` => this will install just the `src/nec-mediainfo.py` extension, rather than the whole content of `src`
 
-## Requirements & Dependencies
+### Requirements & Dependencies
 * make
 * mediainfo: [pymediainfo](https://github.com/sbraz/pymediainfo/)
 * exif: [pyexiv2](https://launchpad.net/py3exiv2)
@@ -28,7 +28,7 @@ fi
 ```
 
 
-## Install to global destination (system)
+### Install to global destination (system)
 
 To install the extension, clone the GitHub repository through your terminal:
 
@@ -59,7 +59,7 @@ If that doesn’t work, then kill the Nautilus process:
 $ sudo killall nautilus
 ```
 
-## Install to local destination (home directory)
+### Install to local destination (home directory)
 
 Follow the exact same procedure as above, but rather than running 
 
@@ -74,7 +74,7 @@ run this instead
 make install
 ```
 
-## To use Nautilus Extra Columns:
+### To use Nautilus Extra Columns:
 
 - On the GNOME Files top bar, click the **list/grid view** button to toggle the list view on a folder.
 - Click the **View options** button next to the list/grid view button.
@@ -83,7 +83,7 @@ make install
 
 You can also right-click the row of column categories on a folder with list view to find and use the extra columns.
 
-# Uninstalling
+## Uninstalling
 
 To uninstall the extension, navigate to the git folder and run uninstall as below
 ``` bash
