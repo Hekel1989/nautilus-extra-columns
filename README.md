@@ -89,3 +89,5 @@ To uninstall the extension, navigate to the git folder and run uninstall as belo
 ``` bash
 sudo make uninstall PREFIX=/usr
 ```
+
+Credit to Teo Elizalde (MakeUseOf) for the structure of the document
