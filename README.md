@@ -39,7 +39,7 @@ git clone https://github.com/Hekel1989/nautilus-extra-columns.git
 Navigate to the repository’s folder:
 
 ``` bash
-cd nautlius-nec
+cd nautlius-extra-columns/
 ```
 Use make to install the extension:
 
