@@ -83,7 +83,7 @@ make install
 
 You can also right-click the row of column categories on a folder with list view to find and use the extra columns.
 
-## Uninstalling
+## Uninstall
 
 To uninstall the extension, navigate to the git folder and run uninstall as below
 ``` bash
