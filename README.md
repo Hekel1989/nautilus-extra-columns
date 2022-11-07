@@ -50,13 +50,13 @@ sudo make install PREFIX=/usr
 Restart GNOME Files/Nautilus for the changes to take effect:
 
 ```
-$ nautilus -q
+nautilus -q
 ```
 
 If that doesn’t work, then kill the Nautilus process:
 
 ```
-$ sudo killall nautilus
+sudo killall nautilus
 ```
 
 ### Install to local destination (home directory)
